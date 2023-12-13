@@ -1,0 +1,16 @@
+{
+   "background": {
+      "scripts": [ "./js/background_script.js" ]
+   },
+   "browser_action": {
+      "default_icon": "./img/chicken-logo.png",
+      "default_popup": "popup.html"
+   },
+   "description": "This extension will help users study, as well as help keep their mental health positive",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAikhgD31TPNdohdpox4ut1eK9PDxtH6BPfzgYYw9K+RbGaRqK2JSSVkx9uJ5q6cV5Q9X9aR29mcW44sSbnJQIMQRzBPYVVvSW3H5DJoGm9sY1pNd3SGNaVu7maUVplQ9tNV2/8Z0eyyRyCe9jnvOOqAxWhBb4H3+07IXAUqrUixhXzog94Ln/rGKm9IY45tQWeB9CJ1UMJG1mWyU5MuQsLMMlinpwyUdc+YK/hZRfl4j97ivPoEzE4erRu51Na+3qzTul5JNIe0Kd8netZ7cHRMLmq0UvBDv3BgzeHrfHI55+w86ANrWSfQfs0OyBBugxJGgBeZPKRTOlKcIKOLqgGQIDAQAB",
+   "manifest_version": 2,
+   "name": "Mental Health Companion",
+   "permissions": [ "notifications" ,"webNavigation", "tabs"],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0"
+}
